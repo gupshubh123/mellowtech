@@ -1211,6 +1211,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits {
   font-size: 13px;
   color: #888;
+  opacity: 0.0001;
 }
 
 #footer .footer-links a {
