@@ -1,0 +1,22 @@
+{
+  "name": "mellowtech",
+  "version": "1.0.0",
+  "description": "Websit / Landing Page of MellowTech.om",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gupshubh123/mellowtech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gupshubh123/mellowtech/issues"
+  },
+  "homepage": "https://gupshubh123.github.io/mellowtech",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
