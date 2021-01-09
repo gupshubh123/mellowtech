@@ -108,6 +108,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header #logo img {
     max-height: 40px;
+    max-width: 120px;
+    position: relative;
+    bottom: 10px;
+    height: auto;
   }
 }
 
@@ -695,7 +699,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content ul li {
   padding-bottom: 10px;
 }
-
+#productsHeading{
+padding: 40px 0;
+margin: auto;
+text-align: center;
+}
+#productsHeading div{
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 /* Product Featuress Section
 --------------------------------*/
 #features {
@@ -770,7 +783,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features .features-row {
-  padding: 60px 0 30px 0;
+  padding: 40px 0 30px 0;
+  background: white;
 }
 
 #advanced-features h2 {
