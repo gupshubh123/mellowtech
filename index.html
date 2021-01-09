@@ -22,6 +22,7 @@
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -36,9 +37,9 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Mellow Tech</a></h1>
+        <!--<h1><a href="#intro" class="scrollto">Mellow Tech</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+         <a href="#intro"><img src="img/mellowlogo.png" alt="" title="" style="width: 75px;position: relative;bottom: 25px;"></a> 
       </div>
 
       <nav id="nav-menu-container">
@@ -46,11 +47,11 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <!--<li><a href="#pricing">Pricing</a></li>-->
           <li><a href="#team">Team</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
+          <!--<li><a href="#gallery">Gallery</a></li>-->
+          <!--<li class="menu-has-children"><a href="">Drop Down</a>-->
+            <!--<ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
                 <ul>
@@ -64,7 +65,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
-            </ul>
+            </ul>-->
           </li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -78,9 +79,9 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>Welcome to Mellow Tech </h2>
-      <p>an awesome tag line here </p>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <h2>MELLOWTECH </h2>
+      <p><i>Empowering Innovations.. </i></p>
+      <a href="#about" class="btn-get-started scrollto">Read More</a>
     </div>
 
     <div class="product-screens">
@@ -107,38 +108,57 @@
       About Us Section
     ============================-->
     <section id="about" class="section-bg">
-      <div class="container-fluid">
+      <div class="container">
         <div class="section-header">
           <h3 class="section-title">About Us</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
-            sunt in culpa qui officia deserunt mollit anim id est laborum
+            Established in 2020, MellowTech believe in creating Smart Homes with the relevant research & development experience and tech-centric approach. 
+            <br>
+            Our philosophy is to bring innovation with the merger of the latest technology and create a skillful and sustainable environment for the country. 
           </p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="img/about-img.jpg" alt="">
+        <div class="row about-cols">
+          <div class="col-md-4 wow fadeInLeft">
+            <div class="about-col">
+              <div class="img-holder">
+                <img src="img/about-vision..jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                We intend to manufacture smart products with voguish technology which becomes a pillar to society. We yearn to follow a sustainable approach that delivers a better customer experience with end-to-end tech solutions.
+              </p>
+            </div>
           </div>
 
-          <div class="col-lg-6 content wow fadeInRight">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-            </p>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img-holder">
+                <img src="img/about-mission..jpg" alt="about mission" class="img-fluid">
+                <div class="icon"><i class="iconify ion-ios-speedometer-outline" data-icon="carbon-sys-provision" data-inline="false"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                Our quest is to become the most prominent electronics service provider that focuses on innovating products and automating homes with a touch of technology. We covet to ignite every home with our proficient mind.
+              </p>
+            </div>
           </div>
+
+          <div class="col-md-4 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img-holder">
+                <img src="img/about-values.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="iconify ion-ios-color-filter-outline" data-icon="emojione:maple-leaf" data-inline="false"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Values</a></h2>
+              <p>
+                MellowTech is conceptualized by like-minded people who desire to grow their country in the electronic phase, adding more skillful people to their team and embracing the unique perspectives of the people they are surrounded by.
+              </p>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -258,6 +278,7 @@
     <!--==========================
       Call To Action Section
     ============================-->
+    <!--
     <section id="call-to-action">
       <div class="container">
         <div class="row">
@@ -271,7 +292,7 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section>--><!-- #call-to-action -->
 
     <!--==========================
       More Features Section
@@ -361,7 +382,7 @@
 
     <!--==========================
       Pricing Section
-    ============================-->
+    ============================-
     <section id="pricing" class="section-bg">
       <div class="container">
 
@@ -420,7 +441,7 @@
 
         </div>
       </div>
-    </section><!-- #pricing -->
+    </section>< #pricing -->
 
 
     <!--==========================
@@ -569,6 +590,7 @@
     <!--==========================
       Gallery Section
     ============================-->
+    <!--
     <section id="gallery">
       <div class="container-fluid">
         <div class="section-header">
@@ -630,8 +652,79 @@
         </div>
 
       </div>
-    </section><!-- #gallery -->
+    </section> --><!-- #gallery -->
+    <!-- Testimonials-->
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
 
+        <div class="section-header">
+          <h3 class="section-title">Testimonials</h3>
+          <span class="section-divider"></span>
+          
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #testimonials --> 
+    <!--end testimonials-->
     <!--==========================
       Contact Section
     ============================-->
@@ -748,6 +841,7 @@
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
