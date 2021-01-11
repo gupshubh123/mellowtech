@@ -908,11 +908,12 @@ text-align: center;
 }
 
 #more-features .box {
-  padding: 40px;
+  padding: 40px 20px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
   transition: 0.4s;
+  height: 190px;
 }
 
 #more-features .icon {
@@ -951,7 +952,14 @@ text-align: center;
   margin-bottom: 0;
   line-height: 24px;
 }
-
+ul.techInAction{
+margin-left: 16%;
+}
+ul.techInAction li{
+  float: left;
+    margin-right: 9%;
+    font-size: 17px;
+}
 @media (max-width: 767px) {
   #more-features .box {
     margin-bottom: 20px;
