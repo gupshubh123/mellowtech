@@ -974,6 +974,10 @@ ul.techInAction li{
 @media (max-width: 767px) {
   #more-features .box {
     margin-bottom: 20px;
+    height: auto;
+  }
+  ul.techInAction li{
+    float: none;
   }
   #more-features .icon {
     float: none;
