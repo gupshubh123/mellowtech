@@ -549,14 +549,14 @@
         <div class="section-header">
           <h3 class="section-title">Our Team</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Our dedicated team members have tried their best to excel in the respective fields</p>
         </div>
         <div class="row wow fadeInUp">
           <div class="col-lg-4 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/team/bala.jpeg" alt="" style="width: 255px;height: 255px;"></div>
-              <h4>Bala</h4>
-              <span>Director</span>
+              <h4>Bala Mukund Jha</h4>
+              <span>Founder & Managing Director</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -569,8 +569,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/team/team-2.jpg" alt=""></div>
-              <h4>Nisha</h4>
-              <span>Product Manager</span>
+              <h4>Alok Kumar Singh</h4>
+              <span>Founder & Chief Scientist</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -583,8 +583,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/team/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <h4>Vinod Kumar Sharma</h4>
+              <span>Project Manager</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -766,17 +766,17 @@
             <div class="info">
               <div>
                 <i class="ion-ios-location-outline"></i>
-                <p>B 23 <br>New Delhi, DEL 122008</p>
+                <p>D-69, Sector-2 <br>Noida, 201301</p>
               </div>
 
               <div>
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>info@mellowtech.in</p>
               </div>
 
               <div>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+91 9876543210</p>
+                <p>01204294748</p>
               </div>
 
             </div>
@@ -786,26 +786,27 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="" id="contactForm" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="fullname" required class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" required name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" required name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" required rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div id="mail-status"></div>
               </form>
             </div>
           </div>
@@ -863,7 +864,6 @@
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
