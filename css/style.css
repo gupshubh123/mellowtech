@@ -143,11 +143,26 @@ margin-top: 0.5%;
   background-size: cover;
   position: relative;
 }
-
+.intro-description{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 20px 20%;
+}
+.readMoreSection{
+  margin: 20px auto;
+  
+}
 @media (min-width: 1024px) {
   #intro {
     background-attachment: fixed;
   }
+  .intro-description{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px 10%;
+}
 }
 
 #intro .intro-text {
