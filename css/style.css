@@ -502,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color: #777;
   font-style: italic;
 }
@@ -1154,14 +1154,14 @@ ul.techInAction li{
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 170px;
 }
 
 #team .member .pic img {
   max-width: 100%;
   border-radius: 100%;
-  width: 255px;
-  height: 255px;
+  width: 150px;
+  height: 150px;
 }
 
 #team .member h4 {
@@ -1178,6 +1178,7 @@ ul.techInAction li{
 
 #team .member .social {
   margin-top: 15px;
+  display: none;
 }
 
 #team .member .social a {
