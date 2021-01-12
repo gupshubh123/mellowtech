@@ -133,4 +133,24 @@ jQuery(document).ready(function($) {
     loop: true,
     items: 1
   });
+
+  //shooting email
+  var $contactForm = $('#contactForm');
+  $contactForm.on('submit', function(e){
+  e.preventDefault()
+  e.stopPropagation()
+  $("#mail-status").html('<p class="sendingEmail">Sending email..</p>');
+  let valid = true
+  if(valid) {
+    jQuery.ajax({
+        url: "contact.php",
+        data:$contactForm.serialize(),
+        type: "POST",
+        success:function(data){
+            $("#mail-status").empty().html(data);
+        },
+        error:function (){}
+    });
+}
+})
 });
