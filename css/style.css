@@ -153,16 +153,30 @@ margin-top: 0.5%;
   margin: 20px auto;
   
 }
+@media (max-width: 992px){
+  .intro-description{
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .intro-description{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 20px 7%;
+    padding-top: 0;
+    position: relative;
+}
+#intro .product-screens{
+    height: 60%;
+    bottom: 8%;
+}
+
+}
 @media (min-width: 1024px) {
   #intro {
     background-attachment: fixed;
   }
-  .intro-description{
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    padding: 20px 10%;
-}
 }
 
 #intro .intro-text {
