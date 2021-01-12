@@ -1323,10 +1323,14 @@ ul.techInAction li{
 
 #contact .info p {
   padding: 0 0 10px 42px;
-  line-height: 28px;
+  line-height: 20px;
   font-size: 14px;
+  position: relative;
+  top: 5px;
 }
-
+.off-add{
+  color: #2980b9;
+}
 #contact .form #sendmessage {
   color: #2980b9;
   border: 1px solid #2980b9;
@@ -1405,4 +1409,7 @@ ul.techInAction li{
 
 #footer .footer-links a:hover {
   color: #2980b9;
+}
+.fa-google-plus, a.google-plus{
+  display: none;
 }
